@@ -1,3 +1,17 @@
+# Monday Assignment
+## Create a simple C program that should display your name, year of study and course currently enrolled inl.
+## Use any compiler of your choice 
+
+```c
+#include <stdio.h>
+int main(){
+    printf("Name: Lucy Wahu Mukuria\n");
+    printf("Year of Study: 5\n");
+    printf("Course: Bsc. Environmental and biosystems engineering\n");
+    return 0;
+}
+
+```
 
 
 
