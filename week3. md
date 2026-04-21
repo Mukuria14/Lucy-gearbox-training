@@ -1,7 +1,7 @@
 # 09/03/26-monday assigment.
 ## Create a simple C program that should display your name, year of study and course currently enrolled inl. Use any compiler of your choice.
 
-``` 
+```c
 #include <stdio.h>
 int main(){
     int a = 20;
@@ -13,4 +13,38 @@ int main(){
     printf("Course: Bsc. Environmental and biosystems engineering\n");
     return 0;
 }
-``` 
+```
+
+
+
+# 11/03/26 - wed assg.
+## Geometry Calculator in C
+### Course: Introduction to C Programming
+### Topic: Functions, Object Files, and Linking with Clang
+
+```c
+#include <math.h>
+/*function prototypes*/
+double circle_area(double diameter);
+double square_area(double length);
+double rectangle_area(double length, double width);
+double triangle_area(double base, double height);
+
+/*functions definitions*/
+double circle_area(double diameter) {
+    double radius = diameter / 2.0;
+    return M_PI * radius * radius;
+}
+
+double square_area(double length) {
+    return length * length;
+}
+
+double rectangle_area(double length, double width) {
+    return length * width;
+}
+
+double triangle_area(double base, double height) {
+    return 0.5 * base * height;
+}
+```
