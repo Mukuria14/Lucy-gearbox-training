@@ -1,0 +1,15 @@
+# 09/03/26-monday assigment.
+## Create a simple C program that should display your name, year of study and course currently enrolled inl. Use any compiler of your choice.
+
+``` 
+#include <stdio.h>
+int main(){
+    int a = 20;
+    int b = 20;
+    int result = a + b;
+    printf("the result is %d\n", result);
+      printf("Name: Lucy Wahu Mukuria\n");
+    printf("Year of Study: 5\n");
+    printf("Course: Bsc. Environmental and biosystems engineering\n");
+    return 0;
+``` 
