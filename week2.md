@@ -1,4 +1,4 @@
-# Monday Assg. 
+# 4/03/26- monday  Assg. 
 ## adding styles and images to the website.
 
 ```
@@ -26,4 +26,71 @@
 </body>
 </html>
 ```
+
+
+
+
+# 6/03/26- friday assignment.
+## Object-Oriented Shape Area Calculator (Python)
+### Topic: Classes, Inheritance, and Polymorphism
+
+
+```
+import math
+#the parent class
+class shape:
+    def area(self):
+        #this method should be implmented in the subclass.
+        pass
+  #the subclass  
+class circle(shape):
+    def __init__(self,radius):
+       self.radius= radius
+        #calculating the area
+    def area(self):
+         circle_area = math.pi * (self.radius)**2
+         return circle_area
+         pass
+    
+class square (shape):
+    def __init__(self, length):
+        self.length = length
+    def area(self):
+          square_area = ((self.length) *(self.length))
+          return square_area
+          pass
+    
+class rectangle (shape):
+    def __init__ (self,length ,width):
+        self.length = length
+        self.width = width
+    def area(self):
+          rectangle_area =((self. length) *(self.width))
+          return rectangle_area
+        
+          pass
+        
+class righttriangle (shape):
+    def __init__(self,base,height):
+        self.base = base
+        self.height = height
+    def area(self):
+
+          righttraingle_area = ((self.base) *(self.height))/2
+          return rightangle_area
+          pass
+    
+    
+ #testing the program
+circle = circle (10)
+square = square (5)
+rectangle = rectangle (4,6)
+triangle = righttriangle (3,8)
+
+
+print("circle area:",circle.area ())
+print ("square area:",square.area())
+print("rectangle area:",rectangle ())
+print("triangle area:", righttriangle.area())
+    ```   
 
