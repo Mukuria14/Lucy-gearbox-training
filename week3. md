@@ -1,5 +1,6 @@
-# 09/03/26-monday assigment.
-## Create a simple C program that should display your name, year of study and course currently enrolled inl. Use any compiler of your choice.
+# 09/03/26 -Monday assignment
+## Create a simple C program that displays your name, year of study and course currently enrolled in.
+## Use any compiler of your choice.
 
 ```c
 #include <stdio.h>
@@ -17,7 +18,7 @@ int main(){
 
 
 
-# 11/03/26 - wed assg.
+# 11/03/26 - Wednesday  Assignment
 ## Geometry Calculator in C
 ### Course: Introduction to C Programming
 ### Topic: Functions, Object Files, and Linking with Clang
