@@ -1,0 +1,10 @@
+title: My Project Site
+description: Documentation and project overview
+theme: minima
+
+header_pages:
+  - index.md
+  - docs/week1.md
+  - docs/week2.md
+  - docs/week3.md
+  - docs/week4.md
