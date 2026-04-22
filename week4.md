@@ -325,5 +325,5 @@ void loop() {
 [![](https://wokwi.com/api/screenshot?url=https://wokwi.com/projects/462003683806887937)](https://wokwi.com/projects/462003683806887937)
 
 
-### Physics_of_Embedded_Systems 3:
+### Physics_of_Embedded_Systems lesson 3:
 The deep “why.” It explains what is physically happening underneath the code: transistors, logic gates, registers, memory, timing, and how a sensor reading becomes a number.
